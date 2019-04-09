@@ -1,0 +1,21 @@
+title: LOONA bias sorter
+author: "@skullface"
+description: >-
+  🌙  Choose your favOriTe member in each battle to get an accurate LOOΠΔ ranking.
+baseurl: "bias-sorter"
+url: "https://loonaverse.com"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Exclude from site build
+exclude:
+  - .DS_Store
+  - node_modules
+  - gulpfile.js
+  - package.json
+  - Gemfile
+  - Gemfile.lock
+  - README.md
